@@ -1,0 +1,11 @@
+{
+  "title": "Site para o Coletivo HerData",
+  "description": "HerData connects and empowers data enthusiasts, offering resources, insights, and collaboration opportunities to promote gender equality in data science.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
