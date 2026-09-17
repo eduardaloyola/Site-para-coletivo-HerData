@@ -27,7 +27,6 @@ Promover a visibilidade do coletivo HerData, fortalecer a presença feminina na 
 ## Contato
 
 Instagram: @herdata.ba
-Site: herdata.ba
 
 ## Licença
 
