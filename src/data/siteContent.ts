@@ -44,8 +44,14 @@ const PROJECT_ASSETS = {
   staatweek: 'staatweek',
 } as const
 
+const projectImages = import.meta.glob<string>('../assets/projects/**/*.jpeg', {
+  eager: true,
+  import: 'default',
+  query: '?url',
+})
+
 const makeProjectImages = (folder: string, names: string[]) =>
-  names.map((name) => new URL(`../assets/projects/${folder}/${name}`, import.meta.url).href)
+  names.map((name) => projectImages[`../assets/projects/${folder}/${name}`])
 
 export const PROJECTS = [
   {
